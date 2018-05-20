@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665315508069",
+    "firebase_url": "https://gameapp-e0413.firebaseio.com",
+    "project_id": "gameapp-e0413",
+    "storage_bucket": "gameapp-e0413.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665315508069:android:5d999305013d8298",
+        "android_client_info": {
+          "package_name": "com.kanyakubjbrahminsamiti.akhil.wordgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665315508069-ohkbt0dopimd479k78nfvja17jlmmif3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kanyakubjbrahminsamiti.akhil.wordgames",
+            "certificate_hash": "f996cf70a661b7b2253a0bf315b5ef8e2c4a5aba"
+          }
+        },
+        {
+          "client_id": "665315508069-rvs5jvvf3btnl3ubadh3m2deabdsumtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvFJUdoEn4GIA97AeMnRE3S2XRLyornbk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665315508069-rvs5jvvf3btnl3ubadh3m2deabdsumtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

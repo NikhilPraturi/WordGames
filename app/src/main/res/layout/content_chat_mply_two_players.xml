@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lm"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:id="@+id/tvytct"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+
+            android:layout_alignBottom="@+id/minutesytct"
+            android:layout_alignParentStart="true"
+
+android:visibility="visible"
+            android:padding="5px"
+            android:text="@string/time"
+            android:gravity = "center|left|left"
+            android:textColor="#e0232d"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/minutesytct"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+
+            android:padding="5px"
+            android:text="@string/textview"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:text="00" />
+
+    </RelativeLayout>
+    <!--
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            >
+
+            <Chronometer
+                android:id="@+id/chromometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="32dp"
+                android:layout_centerHorizontal="true"
+
+
+                />
+        </RelativeLayout>-->
+
+    <RelativeLayout
+
+        android:id="@+id/containerytct"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+        <EditText
+
+            android:id="@+id/messageEditytct"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/chatSendButtonytct"
+            android:focusableInTouchMode="true"
+            android:layout_alignBottom="@+id/chatSendButtonytct"
+            android:layout_marginEnd="28dp"
+            android:layout_toStartOf="@+id/chatSendButtonytct"
+            android:hint="@string/type_message" />
+
+        <Button
+
+            android:id="@+id/chatSendButtonytct"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="48dp"
+            android:background="#1b5e20"
+            android:text="@string/send"
+            android:textColor="@color/background_material_light" />
+
+
+        <ListView
+
+            android:id="@+id/messagesContainerytct"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="240dp"
+
+
+            android:layout_above="@+id/messageEditytct"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:transcriptMode="alwaysScroll" />
+
+        <Button
+            android:id="@+id/cantytct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:visibility="invisible"
+            android:layout_alignEnd="@+id/messageEditytct"
+            android:layout_alignParentBottom="true"
+            android:background="#e0232d	"
+            android:text="@string/nah_i_can_t"
+            android:textColor="#ffff" />
+
+        <TextView
+
+            android:id="@+id/textView10opponentytct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="opponent:"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView11myytct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="you:" />
+
+        <TextView
+            android:id="@+id/textView6wonytct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/messagesContainerytct"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kanyakubjbrahminsamiti.akhil.wordgames.SoloGameModuleTwo"
+    tools:showIn="@layout/activity_solo_game_module_two">
+
+
+    <TextView
+        android:id="@+id/textView4seconds"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="center|left|left"
+        android:padding="5px"
+        android:text="Time:"
+        android:textColor="#e0232d"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5mins"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+
+        android:padding="5px"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:text="00" />
+
+    <EditText
+        android:id="@+id/moduletwoedittext"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/textView6Won"
+        android:layout_alignStart="@+id/textView5opponent"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/moduletwobtnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/cantmoduletwo"
+        android:layout_below="@+id/moduletwoedittext"
+        android:background="#1b5e20"
+        android:text="Ok"
+        android:textColor="#ffff"
+        app:layout_constraintBaseline_toBaselineOf="@+id/moduletwoedittext"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="162dp"
+        android:layout_height="250dp"
+
+        android:layout_below="@+id/textView5mins"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/textView6Won"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cantmoduletwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/moduletwoedittext"
+        android:layout_below="@+id/textView6Won"
+        android:layout_marginEnd="37dp"
+        android:background="#ff0000	"
+        android:text="Nah! I Can't"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/moduletwoedittext" />
+
+    <TextView
+        android:id="@+id/textView5opponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4seconds"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:text="opponent:" />
+
+    <TextView
+        android:id="@+id/textView6you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5opponent"
+        android:layout_alignBottom="@+id/textView5opponent"
+        android:layout_alignStart="@+id/textView5mins"
+        android:layout_marginStart="13dp"
+        android:text="you:"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView6Won"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/recyclerView2"
+        android:layout_marginBottom="28dp"
+        android:layout_toEndOf="@+id/textView4seconds"
+        android:text="TextView"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:visibility="invisible" />
+</RelativeLayout>

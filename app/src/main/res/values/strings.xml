@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Word Games</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_of_games">ListOfGames</string>
+    <string name="title_activity_first_last_letter_game">FirstLastLetterGame</string>
+    <string name="title_activity_building_word_games">BuildingWordGames</string>
+    <string name="title_activity_missing_letters_game">MissingLettersGame</string>
+    <string name="title_activity_rearranging_word_game">RearrangingWordGame</string>
+    <string name="title_activity_fll_game">FllGame</string>
+    <string name="title_activity_fll_game_two">FllGameTwo</string>
+    <string name="title_activity_antakshari_level_one">AntakshariLevelOne</string>
+    <string name="title_activity_chat">activity_chat</string>
+    <string name="title_activity_results_page">ResultsPage</string>
+    <string name="title_activity__game">Activity_Game</string>
+    <string name="title_activity_solo_game_module_two">SoloGameModuleTwo</string>
+    <string name="title_activity_multiplay_game">MultiplayGame</string>
+    <string name="title_activity_play_multi_game">PlayMultiGame</string>
+    <string name="title_activity_wifi_connectivity">WifiConnectivity</string>
+    <string name="time">Time:</string>
+    <string name="textview">TextView</string>
+    <string name="type_message">type message</string>
+    <string name="send">Send</string>
+    <string name="nah_i_can_t">Nah! I Can\'t</string>
+    <string name="title_activity_wifi_connections">WifiConnections</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fll_multi_play">FllMultiPlay</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_test_two">TestTwo</string>
+    <string name="title_activity_establish_wifi_connection">EstablishWifiConnection</string>
+    <string name="title_activity_connectivity_establishment">ConnectivityEstablishment</string>
+    <string name="title_activity_wifi_creation">WifiCreation</string>
+    <string name="title_activity_multiplay">Multiplay</string>
+    <string name="action_send">action_send</string>
+    <string name="title_activity_socket">SocketActivity</string>
+    <string name="action_capture">action_capture</string>
+    <string name="action_attach">action_attach</string>
+    <string name="title_activity_multiplay_game_two">MultiplayGameTwo</string>
+    <string name="title_activity_multi_module_two">MultiModuleTwo</string>
+    <string name="title_activity_game_two">ActivityGameTwo</string>
+    <string name="title_activity_main_two">ActivityMainTwo</string>
+    <string name="title_activity_multiplay_first_last_letter">MultiplayFirstLastLetter</string>
+    <string name="title_activity_game_three">ActivityGameThree</string>
+    <string name="title_activity_main_three">ActivityMainThree</string>
+    <string name="title_activity_chat_mply_two_players">ChatMplyTwoPlayers</string>
+    <string name="title_activity_multiplay_for_host_join">MultiplayForHostJoin</string>
+</resources>

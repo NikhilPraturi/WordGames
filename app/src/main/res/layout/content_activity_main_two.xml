@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kanyakubjbrahminsamiti.akhil.wordgames.ActivityMainTwo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_alignTop="@+id/select_layout"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to WordGames!"
+            />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/select_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/solo"
+                android:layout_width="1dp"
+                android:layout_marginLeft="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroud_button_blue"
+                android:text=""
+
+                android:textColor="#ffff"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/multi"
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/backgroud_button_blue"
+                android:gravity="center"
+                android:text="Building Word Games"
+                android:textColor="#ffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonchtmply"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_button_orange"
+        android:text="First Last Letter Game"
+        android:textColor="#ffff" />
+
+</RelativeLayout>
